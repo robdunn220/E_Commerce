@@ -1,0 +1,21 @@
+  <h2 class = "title">Order Confirmation:</h2>
+<div class="check_out_flex">
+  <div ng-repeat="product in productInfo">
+  <div class="flex_cart_items">
+      <span class = "cart_span">
+      <h2 class="cart_items">- {{product.prodname}}</h2>
+    </span>
+    <span class = "cart_span">
+      <h2 class="cart_items">Price: ${{product.prodprice}}</h2>
+    </span>
+    </div>
+  </div>
+  <span class = "cart_span">
+<h2 class="cart_items">- Total: ${{sum}}</h2>
+</span>
+
+  <div class="address_conf">
+    <h2 class="address_conf">Ship to: </h2>
+    <h2 class="cart_items">{{address}}</h2>
+  </div>
+</div>

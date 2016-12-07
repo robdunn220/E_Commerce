@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ugly Sweater Store</title>
+    <script src="angular.js"></script>
+    <script src="angular-ui-router.js"></script>
+    <script src="ecommerce.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-cookies.js"></script>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+  </head>
+  <body ng-app="e-commerce">
+    <nav class="nav_flex" ng-if="logState">
+
+        <div class = "menu_div">
+        <button class="btn btn-success" ng-click="logOut()">Logout</button>
+        <label class="menu_text">Welcome {{user_name}}</label>
+        <a class="menu_text" ui-sref="shopping_cart">Shopping Cart ({{cart_counter}})</a>
+      </div>
+      <span class="logo_div">    <a class="title" ui-sref="home"><h1>Ugly Sweater Store</h1></a>
+        <img class="santa_img" src="images/santa_claus.png" alt="santa logo">
+          </span>
+
+
+    </nav>
+    <nav class="nav_flex" ng-if="!logState">
+      <button class= "btn btn-success" type="button" ui-sref="login">Login</button>
+      <span class="logo_div"><a class="title" ui-sref="home"><h1>Ugly Sweater Store</h1></a>
+        <img class="santa_img" src="images/santa_claus.png" alt="santa logo">
+</span>
+
+    </nav>
+
+
+    <ui-view></ui-view>
+  </body>
+
+</html>

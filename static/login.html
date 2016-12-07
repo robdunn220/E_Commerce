@@ -1,0 +1,6 @@
+<form ng-submit="loginUser()" method="post">
+  <input class="form-control form-control-lg" type="text" ng-model="username" placeholder="User Name" required>
+  <input  class="form-control form-control-lg" type="password" ng-model="password" placeholder="Password" required>
+  <button class="form-control form-control-lgbtn btn-success" type="submit">Login</button>
+</form>
+<label ng-if="loginFail">Login failed...Please try again</label>

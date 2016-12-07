@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Mountains of Christmas', cursive;
+
+}
+
+/*.the_page {
+  background-image: url('images/diag_wood.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.santa_img {
+  width: 5em;
+  height: 5em;
+
+}
+.logo_div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title{
+text-align: center;
+margin-right: 25px;
+margin-bottom: 10px;
+}
+
+.nav_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgrey;
+  height: 4.4em;
+}
+
+.menu_div{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.menu_text{
+  font-size: 18px;
+  /*padding-top: 20px;*/
+}
+
+.home_title{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 70px;
+  /*color: white;*/
+  margin-top: 0;
+
+}
+
+.results_wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home_page_img{
+  height: 350px;
+  width: 300px;
+   justify-content: center;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.ind_page_img{
+  height: 440px;
+  width: 400px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 2em;
+  /*color: white;*/
+}
+
+.items_conf{
+  margin-right: 50px;
+}
+
+.address_conf {
+  text-align: center;
+}
+.item_added_label {
+  margin-left: 15px;
+  color: green;
+  font-size: 20px;
+}
+
+.title_shop_cart{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.check_out_flex {
+  display: flex;
+  flex-direction: column;
+}
+.cart_items {
+  font-size: 17px;
+}
+.flex_cart_items{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.item_desc{
+  width: 10%;
+}
+
+.desc{
+  margin-left: 5%
+}
+.flex_cart_total{
+  margin-top: 10px;
+  margin-right: 12%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.cart_span{
+  width : 20%
+}
+
+.flex_cart_checkout{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.flex_check_total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spacer {
+  margin-right: 10%
+}
+
+.order_border{
+  border: 1px solid black;
+  margin-bottom: 100px
+}

@@ -1,0 +1,31 @@
+
+<h3 class="title_shop_cart">Ship To:</h3>
+<form  ng-submit="checkout()" method="post">
+  <input class="form-control form-control-lg" type="text" ng-model="address" placeholder="Address" required>
+  <input class="form-control form-control-lg" type="text" ng-model="address2" placeholder="Address Line 2" >
+  <input class="form-control form-control-lg" type="text" ng-model="city" placeholder="City" required>
+  <input type="text" ng-model="state_of_US" placeholder="State" required><br>
+  <input type="text" ng-model="zip_code" placeholder="Zip Code" ng-required><br>
+  <button class="btn btn-danger" type="submit">Confirm checkout</button>
+</form>
+<button class="btn btn-success" type="submit" ng-click="goToCart()">Back to Cart</button>
+
+
+
+
+<h3 class="title_shop_cart">Your Order:</h3>
+<div class="order_border">
+<div class="check_out_flex">
+<div ng-repeat="product in results">
+  <div class="flex_cart_checkout">
+  <h2 class="cart_items desc">- {{product.prodname}}</h2>
+  <h2 class="cart_items spacer">Price: ${{product.prodprice}}</h2>
+
+</div>
+</div>
+</div>
+<div class="flex_check_total">
+<h1 class="cart_items">Total: ${{sum_of_sale}}</h1>
+  <div class="spacer"></div>
+</div>
+</div>

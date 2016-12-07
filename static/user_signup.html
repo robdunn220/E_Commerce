@@ -1,0 +1,10 @@
+<form ng-submit="signUpUser()" method="post">
+  <input type="text" ng-model="first_name" placeholder="First Name" required>
+  <input type="text" ng-model="last_name" placeholder="Last Name" required>
+  <input type="email" ng-model="email" placeholder="Email" required>
+  <input type="text" ng-model="username" placeholder="User Name" required>
+  <input type="password" ng-model="password1" placeholder="Password" ng-required>
+  <input type="password" ng-model="password2" placeholder="Confirm Password" ng-required>
+  <label ng-hide="!pwmatch">Passwords don't match</label>
+  <button type="submit">Sign Up</button>
+</form>

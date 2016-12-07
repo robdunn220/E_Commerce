@@ -1,0 +1,13 @@
+<h3>{{result.name}}</h3>
+<div class="results_wrap">
+<img class="ind_page_img" ng-src="images/{{result.image_path}}">
+<ul>
+  <li>{{result.description}}</li>
+  <li>${{result.price}}</li>
+  <span>
+  <button type="submit" ng-click = "addToCart(result.id)" name="button">Add to cart</button>
+  <label class="item_added_label" ng-if = "cart_add">Item added to cart</label>
+ </span>
+</ul>
+
+</div>
