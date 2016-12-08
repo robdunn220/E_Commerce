@@ -1,6 +1,6 @@
 # E_Commerce Ugly Sweater Store
 ######
-[Overview](https://github.com/robdunn220/E_Commerce#overview)   |   [What We Used](https://github.com/robdunn220/E_Commerce#what-we-used)   |   [MVP](https://github.com/robdunn220/E_Commerce#mvp-minimum-viable-product)   |    [Code](https://github.com/robdunn220/E_Commerce#code-snippets)   | [Screenshots](https://github.com/robdunn220/E_Commerce#screenshots)   |   [Contributing](https://github.com/robdunn220/E_Commerce##contributing)
+[Overview](https://github.com/robdunn220/E_Commerce#overview)   |   [What We Used](https://github.com/robdunn220/E_Commerce#what-we-used)   |   [MVP](https://github.com/robdunn220/E_Commerce#mvp-minimum-viable-product)   |    [Code](https://github.com/robdunn220/E_Commerce#code-snippets)   | [Screenshots](https://github.com/robdunn220/E_Commerce#screenshots)   |   [Contributing](https://github.com/robdunn220/E_Commerce#contributing)
 
 ##Overview:
 Ugly Sweater store is an e-commerce project that I created to sharpen my skills using Python, Flask, and PostgreSQL, as well as implement some newly learned JavaScript concepts, such as Angular routing. I also made use of an API called Stripe for the checkout portion.
@@ -46,7 +46,7 @@ Show/hide animation for the left-fixed vertical nav bar :
 
 ********
 
-##Contributing
+#Contributing
 1. Fork it
 2. Create a new feature branch (named after your intended feature): `git checkout -b new-feature-name`
 3. Commit your changes: `git commit -am 'Added the feature!'`
