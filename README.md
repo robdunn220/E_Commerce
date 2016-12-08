@@ -6,7 +6,7 @@
 Ugly Sweater store is an e-commerce project that I created to sharpen my skills using Python, Flask, and PostgreSQL, as well as implement some newly learned JavaScript concepts, such as Angular routing. I also made use of an API called Stripe for the checkout portion.
 
 ##Github Link:
-[NerdReview](https://github.com/DigitalCrafts-September-2016-Cohort/team_freedom_nerdreview.git)
+[Ugly Sweater Store](https://github.com/robdunn220/E_Commerce)
 
 ##What we used:
 **Languages:**  
